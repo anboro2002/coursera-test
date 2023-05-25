@@ -1,0 +1,75 @@
+body{
+	font-size: 16px;
+	color:#000;
+	background-color: #FFFAF0;
+	font-family: 'Oxygen', sans-serif;
+}
+
+/* inceput header */
+
+#header-navigation{
+	background-color: #00114a;
+	margin:0;
+}
+
+/* titlu */
+.navbar-brand h1{
+	font-family: 'Lora', serif;
+	color: #00CED1;
+	font-size: 2em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin:0;
+	line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+}
+#collapsable-menu{
+	padding:0;
+}
+#menu-list{
+	margin:0;
+}
+#menu-list a{
+	text-align: center;
+	font-size: 1.5em;
+	color: #228B22;
+	background: #DCDCDC;
+
+}
+#menu-list a:hover{
+	background: #FFFAF0;
+}
+
+#menu-list li{
+	border: 1px solid black;
+}
+/* sfarsit header */
+
+/* main content */
+.text-center{
+	font-family: 'Lora', serif;
+	font-size: 2.5em;
+	text-decoration-line: underline;
+	font-weight: bold;
+}
+
+#paragraf-1 ,#paragraf-2 ,#paragraf-3{
+	height: 700px;
+	background-color: gray;
+	margin-top: 30px;
+}
+
+.container{
+	width: 100%;
+	margin: 0px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+div h3{
+	font-size: 2em !important;
+	text-decoration-line: none !important;
+}
